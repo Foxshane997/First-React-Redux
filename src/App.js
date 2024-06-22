@@ -1,11 +1,12 @@
-import './App.css';
-// import React from 'react';
+import Todo from './components/Todo';
 import Counter from './components/Counter';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <Counter className="Counter"/>
+      <Todo className="Todo"/>
     </div>
   );
 }
